@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Diego Armando Maradona</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="css/maradona.css?v=08">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:wght@400;500;700&family=Roboto:wght@900&display=swap" rel="stylesheet"> 
+
+  </head>
+
+  <body>
+
+
+   <!--  <div class="preloader"> <img class="preloader-icon" src="img/loader-maradona.gif" alt="Loading"> </div> -->
+
+        <!--//01--------------------------------------------------------------------------------->
+        <div class="vineta portada is-blanco report_this_height" id="inmortal">
+
+          <div class="fonditocards"> </div>
+
+          <div class="caja" style="z-index: 10;">
+            <h1 class="is-size-1 is-size-2-mobile">Maradona inmortal</h1>
+            <br>
+            <p style="opacity:0">A un año del fallecimiento de Diego Armando Maradona, te invitamos a recordar el gol del siglo. <br>
+            Emocionate una vez más con el relato de Víctor Hugo.</p>
+            <button id="verespecial" onclick="verEspecial()" class="button"> Entrar </button>
+          </div>
+
+        </div>
+        <!--///01---------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+        <!--//02 GOL DEL SIGLO --------------------------------------------------------------------------------->
+        <div class="pizarra vineta has-text-centered" id="elgoldelsiglo">
+
+            <div class="diagrama"> </div>
+
+            <div class="columns is-multiline">
+              <div class="column">
+                <h1 class="is-size-2 mt-4 mb-4"> El gol del siglo </h1>
+                <button id="playgol" onclick="playAudio()" class="button"> Escuchá el relato </button>
+               <!--  <button id="pausegol" style="display: none;" onclick="pauseAudio()" class="button">Pausar</button> -->
+                <button id="mute" onclick="muteAudio()" class="button btsonido"> </button>
+                <button id="desmute" onclick="disableMute()" class="button btsonido"> </button>
+
+                <!-- THE GOAL-->
+                <div id="diegol01" class="animate gol01"> <img src="img/diegol/gol01.jpg"> </div>
+                <div id="diegol02" class="animate gol02"> <img src="img/diegol/gol02.jpg"> </div>
+                <div id="diegol03" class="animate gol03"> <img src="img/diegol/gol03.jpg"> </div>
+                <div id="diegol04" class="animate gol04"> <img src="img/diegol/gol04.jpg"> </div>
+                <div id="diegol05" class="animate gol05"> <img src="img/diegol/gol05.jpg"> </div>
+                <div id="diegol06" class="animate gol06"> <img src="img/diegol/gol06.jpg"> </div>
+                <div id="diegol07" class="animate gol07"> <img src="img/diegol/gol07.jpg"> </div>
+
+                <div id="diegol01gif" class="animategif gol01"> <img src="img/diegol/gol01.gif"> </div>
+                <div id="diegol02gif" class="animategif gol02"> <img src="img/diegol/gol02.gif"> </div>
+                <div id="diegol03gif" class="animategif gol03"> <img src="img/diegol/gol03.gif"> </div>
+                <div id="diegol04gif" class="animategif gol04"> <img src="img/diegol/gol04.gif"> </div>
+                <div id="diegol05gif" class="animategif gol05"> <img src="img/diegol/gol05.gif"> </div>
+                <div id="diegol06gif" class="animategif gol06"> <img src="img/diegol/gol06.gif"> </div>
+                <div id="diegol07gif" class="animategif gol07"> <img src="img/diegol/gol07.gif"> </div>
+                <!-- THE GOAL-->
+
+
+
+                <p class="relato"> 
+                  <span id="oracion01" class="oracion is-size-5"> La va a tocar para Diego, ahí la tiene Maradona, <br> lo marcan dos, </span>
+                  <span id="oracion02" class="oracion is-size-5"> pisa la pelota Maradona, </span>
+                  <span id="oracion03" class="oracion is-size-5"> arranca por la derecha <br> el genio del fútbol mundial, </span>
+                  <span id="oracion04" class="oracion is-size-5"> y deja al tercero y va a tocar para Burruchaga...  </span>
+                  <span id="oracion05" class="oracion is-size-5"> ¡Siempre Maradona! </span>
+                  <span id="oracion06" class="oracion is-size-5"> ¡Genio! ¡Genio! ¡Genio! </span>
+                  <span id="oracion07" class="oracion is-size-5"> Ta-ta-ta-ta-ta-ta-ta-ta... </span>
+                  <span id="oracion08" class="oracion is-size-5" style="top:20%">  Gooooool... </span> <!-- 15 -->
+                  <span id="oracion09" class="oracion is-size-5" style="top:20%">  Gooooool... <br> Gooooool... </span> <!-- -->
+
+
+
+                  <span id="oracion10" class="oracion is-size-5"> ¡Quiero llorar! </span> <!--17-->
+                  <span id="oracion11" class="oracion is-size-5"> ¡Dios Santo, viva el fútbol! </span> <!-- 21-->
+                  <span id="oracion12" class="oracion is-size-5"> ¡Golaaazooo!  </span> <!--23-->
+                  <span id="oracion13" class="oracion is-size-5"> ¡Diegoooool! </span> <!--26-->
+                  <span id="oracion14" class="oracion is-size-5"> ¡Maradona!  </span> <!--29-->
+                  <span id="oracion15" class="oracion is-size-5"> Es para llorar, perdónenme...  </span> <!---31-->
+                  <span id="oracion16" class="oracion is-size-5"> Maradona, en una corrida memorable, <br> en la jugada de todos los tiempos... </span> <!--36-->
+                  <span id="oracion17" class="oracion is-size-5"> Barrilete cósmico... </span> <!--40-->
+                  <span id="oracion18" class="oracion is-size-5"> ¿De qué planeta viniste para dejar <br> en el camino a tanto inglés, </span> <!--43-->
+                  <span id="oracion19" class="oracion is-size-5"> ¿para que el país sea un puño apretado gritando por Argentina? </span> <!-- 52-->
+                  <span id="oracion20" class="oracion is-size-5"> Argentina 2 -  Inglaterra 0. </span> <!--54 -->
+                  <span id="oracion21" class="oracion is-size-5"> Diegol, Diegol, Diego Armando Maradona...  </span> <!-- 1-->
+                  <span id="oracion22" class="oracion is-size-5"> Gracias Dios,   </span> <!-- 1:05-->
+                  <span id="oracion23" class="oracion is-size-5">  por el fútbol,  </span> <!-- -->
+                  <span id="oracion24" class="oracion is-size-5">  por Maradona,  </span> <!-- -->
+                  <span id="oracion26" class="oracion is-size-5">  por estas lágrimas, </span> <!-- -->
+                  <span id="oracion27" class="oracion is-size-5">  por este  </span> <!-- -->
+                  <span id="oracion28" class="oracion is-size-5">  Argentina 2 </span> <!--1:11 -->
+                  <span id="oracion29" class="oracion is-size-5">  Inglaterra 0.  </span> <!--1_13 -->
+                </p>
+
+              </div> <!--column-->
+            </div> <!--columns-->
+
+
+            <!-- FESTEJO ---------->
+            <div id="festejo" style="display: none;">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"> <img src="img/diegol/diegol01.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol02.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol03.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol04.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol05.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol06.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol07.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol08.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol09.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol10.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol11.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol12.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol13.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol14.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol15.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol16.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol17.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol18.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol19.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol20.jpg"> </div>
+                  <div class="swiper-slide"> <img src="img/diegol/diegol21.jpg"> </div>
+
+                </div>
+                
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              
+              </div>
+            </div> <!--//FESTEJO-->
+        </div>
+
+
+        <audio id="barriletecosmico">
+          <!-- <source src="horse.ogg" type="audio/ogg"> -->
+          <source src="mp3/barrilete.mp3" type="audio/mpeg">
+          Tu browser no soporta audio.
+        </audio>
+     
+        <!--///00 PIZARRA---------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/maradona.js?v=02"></script>
+
+  </body>
+</html>

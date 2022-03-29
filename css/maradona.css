@@ -1,0 +1,179 @@
+html, body {position: relative; height: 100%;}
+a {color: unset;}
+body {color: #000;margin: 0; padding: 0;}
+strong {color: unset}
+.preloader{position: fixed;top: 0;left: 0;width: 100%;height: 100vh;background: #fff;z-index: 9999;text-align: center;}
+.preloader-icon{position: relative;top: 45%;width: 100px}
+.container { max-width: 96% !important;  top: 14px;  position: absolute;  aspect-ratio: 16/9;}
+.lesspadding .column {  padding: .25rem !important;}
+.lesspadding h3 {font-size: 0.6rem;}
+.lesspadding .column.is-2{ width: 19%!important}
+
+.vineta  {width: 100%; height: 100%; text-align:center; display: flex;}
+.vineta .columns   {width: 100%;margin: 0;}
+.vineta .column {  width: 100vw;}
+
+
+/* SWIPER */
+.swiper {width: 100%;height: 100%;}
+.swiper-slide {text-align: center;background: #fff;
+/* Center slide text vertically */
+display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center;
+-webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center;}
+
+.swiper-slide img {display: block;width: 100%;height: 100%;object-fit: cover;}
+
+
+.swiper-button-next, .swiper-button-prev { bottom: 6px; top: unset; width: unset; font-family: 'Inter', sans-serif; position: fixed;}
+.swiper-button-next::after,  .swiper-button-next::before, .swiper-button-prev::after, .swiper-button-prev::before {font-family: 'Inter', sans-serif;
+    font-size: 1rem; color: #FFF}
+.swiper-button-next::before { content: 'Siguiente';}
+.swiper-button-prev::after { content: 'Anterior';}
+.swiper-button-prev {left: 2%;}
+.swiper-button-next {right: 2%;}
+.swiper-button-prev:before, .swiper-button-next:after {background-size: 30px 30px !important;  width: 30px; height: 30px; filter: invert(100);}
+.swiper-button-prev:before { content: " "; background: url(../img/f-anterior.png); margin-right: 10px;}
+.swiper-button-next:after { content: " ";  float: right;background: url(../img/f-siguiente.png); margin-left: 10px;}
+
+
+/* MARADONA INMORTAL */
+#inmortal { background: url(../img/pizarra.jpg) #000; }
+.fonditocards {background: url("../img/inmortal.png"); background-size: auto; width: 100%;height: 100%; background-size: cover}
+.caja { top: 32%; position: absolute; width: 54%; margin-left: 22.5%; border: 1px solid; padding: 3%;}
+#verespecial {background: #00FFC2; color: #000; font-weight: bold;  border: none; padding: 2px 10px; margin-top: 4%; opacity: 0;}
+
+/* GOL DEL SIGLO */
+.pizarra {background: url(../img/pizarra.jpg) #000; display: none;/*display: table-cell;*/}
+.pizarra h1, .pizarra p {color: #FFF}
+.pizarra h1 {margin-top: 2%;}
+.pizarra #playgol, .pizarra  #pausegol { background: #00FFC2; color: #000; font-weight: bold;  border: none; padding: 2px 10px;}
+
+.pizarra .btsonido {  border: 1px solid #00FFC2; border-radius: 30px;  padding: 10px;  margin-left: 10px; width: 38px; height: 38px; opacity: 0; display: none; }
+.pizarra #mute { background: url("../img/i-volumen.png") no-repeat center center;background-size: auto; background-size: 20px 20px; }
+.pizarra #desmute { background: url("../img/i-volumen-mute.png") no-repeat 9px center }
+
+
+
+
+.diagrama {background: url(../img/diagrama.png); background-size: auto; background-size: auto;  width: 100%;
+    aspect-ratio: 16/9; position: absolute; background-size: cover; height: 100%;}
+
+#playgol img {width: 14px; height: auto; margin-left: 2px;top: 2px; position: relative;}
+
+#elgoldelsiglo { overflow: hidden;}
+#elgoldelsiglo .animate, #elgoldelsiglo .animategif { width: 100px; position: absolute; border: 4px solid #FFF; background: #000;}
+#elgoldelsiglo .animate img{ margin-bottom: -5px; opacity: 0.2;}
+
+
+#elgoldelsiglo .animategif {display: none; position: absolute; z-index: 1}
+#elgoldelsiglo .animategif img{ margin-bottom: -5px}
+
+
+.gol01 { bottom: 0; right: 9%; transform: rotate(2deg);}
+.gol02 { bottom: 35%; right: 3%; transform: rotate(-1deg);}
+.gol03 { right: 22%; bottom: 31%; position: absolute; transform: rotate(1.5deg);}
+.gol04 { right: 38%;  bottom: 38%; transform: rotate(-1.8deg);}
+.gol05 { left: 34%;  bottom: 48%; transform: rotate(2.2deg);}
+.gol06 { bottom: 34%; left: 18%; transform: rotate(-1.2deg);}
+.gol07 {bottom: 21%; left: 3%; transform: rotate(2.6deg);}
+
+.relato { position: absolute; width: 100%; bottom:16%;right: 0;font-weight: 500; }
+.oracion {display: none; line-height: 100%; opacity: 0;}
+
+
+#festejo {height: 40vh; overflow: hidden; opacity:0; width: 100vw; position: absolute; right: 0; bottom:30%; }
+.wrapper { height: 200px; width: 632px; position: relative; overflow: hidden; margin: 0 auto;}
+
+.button-wrapper { width: 100%; height: 100%; display: flex;  justify-content: space-between; align-items: center; position: absolute;}
+
+
+
+.cancha {background: linear-gradient(97.39deg, rgba(41, 164, 39, 0.5) 5.05%, rgba(0, 255, 194, 0.5) 100.81%)}
+.chancha:before {position: absolute;content: " "; width: 1px; height: 100%;background: #FFF; z-index: 0; opacity: 0.2;}
+
+
+
+.outline { font-family: 'Roboto', sans-serif;  position: absolute; z-index: 0; transform: rotate(-90deg); font-size: 12rem; left: 5%; color: white; text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF; opacity: 0.7;
+margin-bottom: 4%;}
+
+
+
+@supports((text-stroke: 1px #FFF) or (-webkit-text-stroke: 1px #FFF)) {.outline { color: transparent; -webkit-text-stroke: 1px #FFF; text-stroke: 1px #FFF; text-shadow: none;}
+}
+h1 { font-family: 'Calistoga', cursive; line-height: 100%;/* margin-bottom: 3rem !important*/;}
+h3 { background: #000; padding: 10px 4px; border-radius: 5px;margin-bottom: 7px;color: #FFF; font-family: 'Calistoga', cursive; text-align: center; font-size: 0.7rem; letter-spacing: 0.4px; }
+h4 { font-family: 'Inter', sans-serif; font-weight: 700; }
+p { font-family: 'Inter', sans-serif; font-size: 1rem; position: relative;  z-index: 1;}
+.carta {aspect-ratio: 39/50; background-color: #FFF !important; background: url("../img/carta-bg.png"); background-size: cover !important; margin-bottom: 5px;
+    text-align: center; cursor: move}
+.lesspadding .column { padding: .45rem !important; }
+.carta:first-child() {transform: translatey(0px);}
+.carta:nth-child(2) {transform: translatey(0px);}
+.carta:nth-child(3) {transform: translatey(0px);}
+.carta:nth-child(4) {transform: translatey(0px);}
+.carta:nth-child(5) {transform: translatey(0px);}
+.carta span { font-family: 'Inter', sans-serif;  font-size: 1.2rem;  padding: 6px 12px;  background: #FFE2A9; border-radius: 50px;  top: 45%; position: relative;}
+.carta.c01 { background: url("../img/c01.png");}
+.carta.c02 { background: url("../img/c02.png");}
+.carta.c03 { background: url("../img/c03.png");}
+.carta.c04 { background: url("../img/c04.png");}
+.carta.c05 { background: url("../img/c05.png");}
+.carta.c06 { background: url("../img/c06.png");}
+.carta.c07 { background: url("../img/c07.png");}
+.carta.c08 { background: url("../img/c08.png");}
+.is-blanco {color: #FFF}
+
+
+.puntitos {border:2px #000 dotted; padding: 10px; margin-top: 20px;}
+.animate {opacity: 0; transform: scale(0);}
+
+
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+
+    .report_this_height { aspect-ratio: 9/16; overflow: hidden;}
+    /* GOL  DEL SIGLO */
+
+    .pizarra h1 { margin-top: 1% !important;}
+    .pizarra p br { display: none !important}
+
+    .diagrama { position: absolute; background-size: cover; height: 100vh; right: 40px; width: 270vw}
+
+
+    .gol01 { right: 40%; bottom: 1%; }
+    .gol02 { right: 4%;  bottom: 22%;}    
+    .gol03 { left: 25%; right: unset; bottom: 37%}
+    .gol04 { left: -22%; right: unset; bottom: 30%;}
+    .gol05 { left: -70%; right: unset; bottom: 44%;}
+    .gol06 { left: -120%; bottom: 40%;}
+    .gol07 { left: -164%; bottom: 20%}
+
+    .relato {top: 25%; bottom: unset; right: 0;}
+
+    .is-size-5 {font-size: 1rem !important;}
+    .is-size-3 {font-size: 1.52em !important;}
+
+    #festejo {height: 60vh; bottom:0;}
+
+
+    .container { aspect-ratio: 9/16;}
+    p {  font-size: 0.875rem !important}
+    .swiper-button-prev {left: 5%;}
+    .swiper-button-next {right: 5%;}
+
+    .container { padding-left: 8%; padding-right: 8%;  }
+
+    .lesspadding .column { padding: .3rem !important; }
+    .lesspadding .column.is-2{ width: 19%!important}
+    .lesspadding .column.is-3{ width: 28%!important}
+
+    .caja { width: 80%;top: 30%; margin-left: 10%; }
+
+    h1.mb-6 { margin-bottom: 1rem !important;}
+    h3 {font-size: 0.58rem; letter-spacing: 0;}
+
+    .fonditocards {background: url("../img/inmortal-mobile.png"); background-size: 100%;}
+
+}
+    
